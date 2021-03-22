@@ -78,7 +78,7 @@ $ yarn
 ```
 
 ### Configurações com o banco de dados
-Crie um banco de dados vazio no servidor Mariadb.
+Crie um banco de dados vazio no servidor Mariadb com o nome **eagle_challenge**.
 
 No arquivo ormconfig alterar as credenciais de acesso ao seu banco de dados conforme as configurações da sua base de dados local.
 
@@ -89,7 +89,7 @@ No arquivo ormconfig alterar as credenciais de acesso ao seu banco de dados conf
 $ cd eagle-challenge/backend
 
 # Instanciando o banco de dados:
-$ yarn typeorm migrate:run
+$ yarn typeorm migration:run
 
 # Executando a aplicação em modo de desenvolvimento:
 $ yarn dev:server
