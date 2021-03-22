@@ -10,7 +10,7 @@
 
 <h3 align="center">
 
-O sistema Dona Clotilde foi um projeto desenvolvido como teste para contratação na empresa Eagle Digital e foram utilizadas as tecnologias ***TypeScript, Node, React e React Native***.
+O sistema Dona Clotilde foi um projeto desenvolvido como teste para contratação na empresa Eagle Digital e foram utilizadas as tecnologias ***TypeScript, Node e ReactJS***.
 
 </h3>
 
