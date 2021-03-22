@@ -109,7 +109,8 @@ $ yarn start
 > Se o browser não abrir automaticamente, acesse: http://localhost:3000.
 
 
-**\* Lembre de inserir no arquivo `.env` o IP exato que foi gerado pelo seu mobile após utilizar o comando `npm run start`.**
+**\* Lembre de alterar o IP(baseURL) para garantir comunicação com o servidor, através do arquivo api.ts, localizado em frontend/services/api.ts **
+**O ip está local para ser possivel fazer testes pelo telefone. Em caso de testar apenas no navegador, o IP pode ser substituido por localhost**
 
 ## **:page_with_curl: LICENÇA**
 
